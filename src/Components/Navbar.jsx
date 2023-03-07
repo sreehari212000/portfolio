@@ -4,6 +4,8 @@ import {BsFilePersonFill, BsFillArrowUpSquareFill} from "react-icons/bs"
 import {FiTwitter} from "react-icons/fi"
 import {Link, } from "react-scroll"
 import LOGO from "../Assets/Sj.png"
+import RESUME from "../Assets/Resume.pdf"
+
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false)
@@ -100,7 +102,7 @@ const Navbar = () => {
                 <li><a href="https://github.com/sreehari212000" target='_blank'><FaGithub size='25px'/></a></li>
                 <li><a href="https://www.linkedin.com" target='_blank'><FaLinkedin size='25px'/></a></li>
                 <li><a href="https://www.twitter.com/_sreeri" target='_blank'><FiTwitter size='25px'/></a></li>
-                <li><a href=""><BsFilePersonFill size='25px'/></a></li>
+                <li><a href={RESUME} target='_blank'><BsFilePersonFill size='25px'/></a></li>
               </ul>
             </div>
         </ul>
@@ -126,7 +128,7 @@ const Navbar = () => {
 
 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:translate-x-[90px] duration-500 bg-[#565f69]'>
-                    <a className='flex justify-between items-center w-full text-gray-300' href=''>Resume <BsFilePersonFill size={30}/></a>
+                    <a className='flex justify-between items-center w-full text-gray-300' href={RESUME}  target='_blank'>Resume <BsFilePersonFill size={30}/></a>
                 </li>
             </ul>
         </div>
