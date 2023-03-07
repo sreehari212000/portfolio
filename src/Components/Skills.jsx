@@ -6,6 +6,7 @@ import HTML from "../Assets/html.png"
 import REACT from "../Assets/react.png"
 import JAVASCRIPT from "../Assets/javascript.png"
 import TAILWIND from "../Assets/tailwind.png"
+import REDUX from "../Assets/Redux.png"
 
 const Skills = () => {
   return (
@@ -45,8 +46,8 @@ const Skills = () => {
 
                 {/* firebase div */}
                 <div className='shadow-md shadow-[#363b41] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={FIREBASE} alt="" />
-                    <p className='my-4'>FIREBASE</p>
+                    <img className='w-20 mx-auto' src={REDUX} alt="" />
+                    <p className='my-4'>REDUX</p>
                 </div>
 
                 {/* tailwind div */}
