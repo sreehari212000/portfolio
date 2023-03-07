@@ -70,7 +70,7 @@ const Navbar = () => {
 
 
             {/* Modile menu */}
-        <ul className={!navOpen? 'hidden': ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <ul className={!navOpen? 'hidden': ' absolute top-0 left-0 w-full h-screen bg-black bg-opacity-70 flex flex-col justify-center items-center'}>
             <li className='py-6 text-4xl'>
                 <Link onClick={closeNav}  to="home"  smooth={true} duration={500}>
                     Home
