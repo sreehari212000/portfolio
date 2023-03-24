@@ -1,9 +1,8 @@
 import React from 'react'
 
 import CSS from "../Assets/css.png"
-import FIREBASE from "../Assets/firebase.png"
 import HTML from "../Assets/html.png"
-import REACT from "../Assets/react.png"
+import Next from "../Assets/NextJS.png"
 import JAVASCRIPT from "../Assets/javascript.png"
 import TAILWIND from "../Assets/tailwind.png"
 import REDUX from "../Assets/Redux.png"
@@ -40,8 +39,8 @@ const Skills = () => {
 
                 {/* react div */}
                 <div className='shadow-md shadow-[#363b41] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={REACT} alt="" />
-                    <p className='my-4'>REACT</p>
+                    <img className='w-20 mx-auto' src={Next} alt="" />
+                    <p className='my-4'>NextJS</p>
                 </div>
 
                 {/* firebase div */}
