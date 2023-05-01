@@ -1,7 +1,7 @@
 import React from 'react'
 import RealEstate from "../Assets/RealestateGenie.png"
 import IPTracker from "../Assets/IpAdressTracker.png"
-import CountryAPI from "../Assets/country-api.png"
+import CountryInsights from "../Assets/country-insight.png"
 import Connectify from "../Assets/connectify.png"
 import ecart from "../Assets/ecart.png"
 import yt from "../Assets/mytube.png"
@@ -60,18 +60,18 @@ const Projects = () => {
                 </div>
                 {/* end of single item */}
                 {/* grid single item */}
-                <div style={{backgroundImage: `url(${CountryAPI})`, objectFit:'contain'}}
+                <div style={{backgroundImage: `url(${CountryInsights})`, objectFit:'contain'}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> 
                 {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Country API
+                            Country Insights
                         </span>
                         <div>
-                            <a href="https://sj-country-api.netlify.app/" target='_blank'>
+                            <a href="https://country-insights-sj.vercel.app/" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/sreehari212000/CountryAPI" target='_blank'>
+                            <a href="https://github.com/sreehari212000/country-insights" target='_blank'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
