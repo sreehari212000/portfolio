@@ -15,7 +15,7 @@ function About() {
                     <p>Hi, i am Sreehari, nice to meet you. Please take a look around</p>
                 </div>
                 <div>
-                    <p>I am a recent Bachelor of Computer Science (BCA) graduate from Gods Own Country Kerala, India. I am always on the lookout for new technologies and trends in the industry to stay ahead of the game and provide the best solutions possible. Thank you for taking the time to explore my portfolio, and I look forward to the opportunity to work with you.</p>
+                    <p>I am a final year Master of Computer Applications (MCA) student from Gods Own Country Kerala, India. I am always on the lookout for new technologies and trends in the industry to stay ahead of the game and provide the best solutions possible. Thank you for taking the time to explore my portfolio, and I look forward to the opportunity to work with you.</p>
                 </div>
             </div>
         </div>

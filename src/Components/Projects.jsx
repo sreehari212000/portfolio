@@ -79,9 +79,10 @@ const Projects = () => {
                 </div>
                 {/* end of single item */}
                 {/* grid single item */}
-                <div style={{backgroundImage: `url(${Connectify})`, objectFit:'contain'}}
+
+
+                {/* <div style={{backgroundImage: `url(${Connectify})`, objectFit:'contain'}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> 
-                {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
                             Connectify
@@ -95,8 +96,9 @@ const Projects = () => {
                             </a>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* end of single item */}
+
                 {/* grid single item */}
                 <div style={{backgroundImage: `url(${ecart})`, objectFit:'contain'}}
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'> 
