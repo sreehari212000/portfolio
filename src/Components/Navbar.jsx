@@ -4,7 +4,7 @@ import {BsFilePersonFill, BsFillArrowUpSquareFill} from "react-icons/bs"
 import {FiTwitter} from "react-icons/fi"
 import {Link, } from "react-scroll"
 import LOGO from "../Assets/Sj.png"
-import RESUME from "../Assets/SREEHARI_JAYARAM.pdf"
+import RESUME from "../Assets/SREEHARI_J.pdf"
 
 
 const Navbar = () => {
